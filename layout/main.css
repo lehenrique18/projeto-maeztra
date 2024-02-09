@@ -1,0 +1,774 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #FAFAFA;
+}
+
+html{
+    height: 100%;
+}
+
+.sub-header{
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    background-color: #353535 ;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header{
+    box-shadow: 1px 1px 4px gray;
+}
+
+.header-desktop{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 16px;
+    align-items: center;
+}
+
+.input-topo{
+    display: flex;
+    margin: 0 22px;
+}
+
+.input-header{
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #EFEFEF;
+    padding-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    height: 40px;
+    width: 450px;
+    outline: none;
+}
+
+.input-topo button{
+    border: none;
+    background-color: #FAA500;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-left: -20px;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.menu-item li{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.sacola{
+    height: 40px;
+    border: 1px solid #FAA500;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.container-menu{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.lista-departamento{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+
+.nav-menu{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news{
+    color: #FAA500;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.fullbaner img{
+    max-width: 100%;
+}
+
+.text-img{
+    position: absolute;
+    top: 120px;
+    left: 350px;
+}
+
+.text-img span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+
+.text-img p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    width: 65%;
+    margin-top: 30px;
+}
+
+
+.text-img button {
+    border-radius: 8px;
+    background-color: #FAA500;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slick-dots{
+    bottom: 20px !important;
+}
+
+.slick-dots li{
+    border-radius: 50%;
+    border: 2px solid #FAA500;
+}
+
+.slick-dots .slick-active{
+    background-color: #FAA500;
+}
+
+.slick-dots li button:before{
+    font-size: 0px !important;
+}
+
+.slick-dots li{
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.container-beneficios{
+    margin: 0 auto;
+    width: 85%;    
+}
+
+.container-beneficios h2{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.lista-beneficios{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.item-beneficio{
+    display: flex !important;
+    align-items: center;
+    background: #EFEFEF;
+    font-family: 'Titillium Web', sans-serif;
+    height: 40px;
+    width: 235px;
+    padding: 4px 8px;
+    gap: 10px;
+}
+
+
+
+.beneficios-text span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.beneficios-text p{
+    font-size: 12px;
+    margin: 0;
+}
+
+
+.lista-beneficios img{
+    width: 30px;
+}
+
+.container-marcas{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container-marcas h2{
+    text-align: center;
+}
+
+.menu-beneficios{
+    margin-top: 50px;
+}
+
+.lista-marcas{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.item-marca{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 40px;
+    width: 235px;
+}
+
+.item-marca img{
+    width: 230px;
+}
+
+.marca h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.item-vitrine img{
+    width: 230px;
+}
+
+.item-vitrine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.vitrine{
+    margin-top: 60px;
+}
+
+.item-vitrine button{
+    height: 40px;
+    background-color: #FAA500;
+    color: #EFEFEF;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+.vitrine section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.vitrine h2{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.vitrine h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-align: start;
+}
+
+.colors{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.yellow{
+    background-color: #DEAC71;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.salmao{
+    background-color: #D37164;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.azul-claro{
+    background-color: #6497D3;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.roxo{
+    background-color: #3C3B79;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+.branco{
+    background-color:#EAE9E5;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+.bege{
+    background-color:#CFC9B0;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+.vermelho{
+    background-color:#D84E4B;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+.preto{
+    background-color:#1C1A19;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.price{
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.description{
+    font-size: 12px;
+    width: 100%;
+    color: #000000;
+    opacity: 0.5;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.info-colecao{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+    gap: 10px;
+}
+
+.info-colecao img{
+    width: 65%;
+}
+
+.text-colecao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-colecao h3{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+.text-colecao p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+
+.newsletter{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Titillium Web', sans-serif;
+    justify-content: center;
+    border: 1px solid #EFEFEF;
+    padding: 30px;
+}
+
+.newsletter-mobile{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    justify-content: center;
+    border: 1px solid #EFEFEF;
+    padding: 30px;
+}
+
+.newsletter label{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.newsletter-mobile label{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.newsletter input{
+    width: 380px;
+    padding-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.newsletter-mobile input{
+    padding-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 6px;
+    width: 180px;
+    border: 1px solid ;
+    margin-top: 15px;
+    outline: none;
+}
+
+.newsletter button{
+    width: 130px;
+    background-color: #FAA500;
+    color: #fff;
+    border: none;
+    margin-left: -4px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.newsletter-mobile button{
+    width: 80px;
+    background-color: #FAA500;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    margin-left: 8px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.form-mobile{
+    gap: 10px;
+
+}
+.footer-inst{
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.footer-inst ul{
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-inst li{
+    font-weight: 300;
+    font-size: 12px;
+    padding: 12px 0;
+}
+
+.copy-footer{
+    background-color: #1C1A19;
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grupo-social{
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grupo-social img{
+    width: 25px;
+}
+
+.grupo-pagamento{
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grupo-pagamento img{
+    width: 25px;
+}
+
+.grupo-empresa{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
+
+.grupo-empresa div{
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(26 26 26 / 70%);
+    width: 100%;
+}
+
+.modal{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-modal{
+    display: flex;
+    height: 50%;
+}
+
+.text-modal{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+
+.text-modal span{
+    font-size: 12px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.text-modal p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    margin: 0 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.close-btn{
+    position: absolute;
+    top: 175px;
+    right: 32%;
+    color: #fff;
+    font-size: 10px !important;
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.text-modal input{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 10px;
+    width: 80%;
+    border-radius: 4px;
+    border: 1px solid #C4C4C4;
+}
+
+.text-modal button{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #FAA500;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px;
+    width: 85%;
+}
+
+.text-modal img{
+    width: 30px;
+}
+
+.left{
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .beneficios-text{
+        padding: 32px;
+    }
+    .info-colecao{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-colecao img{
+        width: 100%;
+        border-radius: 4px;
+    }
+    .item-vitrine{
+        display: flex !important;
+    }
+    .item-vitrine img{
+        width: 100%;
+    }
+    .item-marca{
+        display: flex !important;
+    }
+    .copy-footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .grupo-social{
+        gap: 30px;
+    }
+    .grupo-pagamento{
+        gap: 30px;
+    }
+    .popup-desk{
+        display: none;
+    }
+    .close-btn{
+        position: absolute;
+        font-size: 12px;
+        top: 22%;
+        right: 20%;
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+    }
+  }
+
+.header-mobile{
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barra-menu {
+    height: 1px;
+    width: 20px;
+    background-color: #000;
+    display: block;
+    margin: 4px;
+}
+
+.logo-mobile{
+    margin-left: -80px;
+}
+
+.logo-mobile img{
+    width: 100px;
+}
+
+.menu-mobile{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-mobile img{
+    width: 15px;
+}
+
+.fullbaner-mobile img{
+    width: 100%;
+}
+
+.footer-mobile{
+    padding: 16px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .panel li{
+    list-style: none;
+  }
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active-mobile:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
